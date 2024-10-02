@@ -7,14 +7,14 @@ To configure, you can use CMake to generate a project.
 
 So for example, from the root of the repo
 ```
-CMake -G Ninja -B build
+cmake -G Ninja -B build
 cmake --build build
 ./build/App/ConsoleAppMessageThread_artefacts/ConsoleAppMessageThread
 ```
 
 For Xcode, replace the first command with:
 ```
-CMake -G Ninja -B build
+cmake -G Xcode -B build
 ```
 
 Or for Visual Studio:
