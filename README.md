@@ -21,3 +21,6 @@ Or for Visual Studio:
 ```
 CMake -G "Visual Studio 17 2022" -B build
 ```
+
+For people not used to CMake, I've also added a Projucer project file in the 'App' directory.
+(But please don't use it! Use CMake)

@@ -12,6 +12,9 @@ CMakeCache.txt
 cmake_install.cmake
 CMakeScripts
 
+Builds
+JuceLibraryCode
+
 .idea
 
 IDEWorkspaceChecks.plist
