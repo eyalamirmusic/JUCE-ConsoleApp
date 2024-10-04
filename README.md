@@ -5,7 +5,7 @@ The app is also set up to run the message thread, spawn timers, etc.
 
 To configure, you can use CMake to generate a project.
 
-So for example, from the root of the repo
+So for example, from the root of the repo:
 ```
 cmake -G Ninja -B build
 cmake --build build
@@ -19,7 +19,7 @@ cmake -G Xcode -B build
 
 Or for Visual Studio:
 ```
-CMake -G "Visual Studio 17 2022" -B build
+cmake -G "Visual Studio 17 2022" -B build
 ```
 
 For people not used to CMake, I've also added a Projucer project file in the 'App' directory.
